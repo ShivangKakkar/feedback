@@ -2,6 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import { FeedbackProvider } from './context/FeedbackContext'
 import './index.css'
+import FeedbackList from './components/FeedbackList'
+import FeedbackForm from './components/FeedbackForm'
+import FeedbackStats from './components/FeedbackStats'
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
             path='/'
             element={
               <>
-                <div className='container'>App</div>
+                <FeedbackForm />
+                <FeedbackStats />
+                <FeedbackList />
               </>
             }
           ></Route>
