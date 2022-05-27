@@ -1,0 +1,22 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "item": "This is j-server item 1",
+      "rating": 10,
+      "time": "Since big bang"
+    },
+    {
+      "id": 2,
+      "item": "This is j-server item 2",
+      "rating": 8,
+      "time": "Since big bang"
+    },
+    {
+      "id": 3,
+      "item": "This is j-server item 3",
+      "rating": 6,
+      "time": "Since big bang"
+    }
+  ]
+}
